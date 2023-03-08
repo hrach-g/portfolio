@@ -1,0 +1,34 @@
+@font-face {
+  font-family: nameFont;
+  src: url(./fonts/PTSansNarrow-Bold.ttf);
+}
+@font-face {
+  font-family: numberFont;
+  src: url(./fonts/SignikaNegative-VariableFont_wght.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: black;
+}
+a{
+  text-decoration: none;
+}
+p,h1,li{
+  font-family: nameFont;
+}
+h2{
+  font-family: numberFont;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
